@@ -1,0 +1,147 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --cream: #FAF7F2;
+    --sand: #F3EDE2;
+    --sand-deep: #EEE5D8;
+    --white: #FFFFFF;
+    --ink: #292720;
+    --muted: #79756C;
+    --bronze: #9A7950;
+    --line: #E7DED1;
+    --green: #4C6545;
+    --green-bg: #EDF1E8;
+    --font-display: 'Playfair Display', Georgia, serif;
+    --font-sans: 'DM Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+    --font-mono: 'JetBrains Mono', monospace;
+  }
+
+  *, *::before, *::after {
+    box-sizing: border-box;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    margin: 0;
+    font-family: var(--font-sans);
+    background-color: var(--cream);
+    color: var(--ink);
+    line-height: 1.6;
+    overflow-x: hidden;
+  }
+
+  h1, h2, h3, h4, .font-serif-display {
+    font-family: var(--font-display);
+    font-weight: 500;
+    line-height: 1.18;
+    overflow-wrap: anywhere;
+  }
+
+  p, span, div, label, a, button, td, th {
+    overflow-wrap: anywhere;
+  }
+
+  .font-mono-tabular {
+    font-family: var(--font-mono);
+    font-variant-numeric: tabular-nums;
+  }
+}
+
+.ops-container {
+  width: min(1240px, calc(100% - 32px));
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (min-width: 640px) {
+  .ops-container {
+    width: min(1240px, calc(100% - 48px));
+  }
+}
+
+.ops-eyebrow {
+  color: #9A7950;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 2.4px;
+  text-transform: uppercase;
+}
+
+.ops-card {
+  background-color: #FFFFFF;
+  border: 1px solid #E7DED1;
+  min-width: 0;
+}
+
+.ops-surface {
+  background-color: #F3EDE2;
+  border: 1px solid #E7DED1;
+  min-width: 0;
+}
+
+.ops-btn {
+  min-height: 46px;
+  padding: 12px 22px;
+  border: 1px solid #292720;
+  border-radius: 3px;
+  background-color: #292720;
+  color: #FFFFFF;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  text-align: center;
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 1.3;
+  transition: background-color 0.2s ease, border-color 0.2s ease, color 0.2s ease;
+  cursor: pointer;
+}
+
+.ops-btn:hover:not(:disabled) {
+  background-color: #9A7950;
+  border-color: #9A7950;
+  color: #FFFFFF;
+}
+
+.ops-btn:disabled {
+  opacity: 0.48;
+  cursor: not-allowed;
+}
+
+.ops-btn-outline {
+  min-height: 46px;
+  padding: 12px 22px;
+  border: 1px solid #292720;
+  border-radius: 3px;
+  background-color: transparent;
+  color: #292720;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  text-align: center;
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 1.3;
+  transition: background-color 0.2s ease, border-color 0.2s ease, color 0.2s ease;
+  cursor: pointer;
+}
+
+.ops-btn-outline:hover:not(:disabled) {
+  background-color: #9A7950;
+  border-color: #9A7950;
+  color: #FFFFFF;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    scroll-behavior: auto !important;
+    transition: none !important;
+    animation: none !important;
+  }
+}

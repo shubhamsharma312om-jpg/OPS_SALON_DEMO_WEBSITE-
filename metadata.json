@@ -1,0 +1,6 @@
+{
+  "name": "Nizam Atelier — Hyderabad Hair & Grooming Salon",
+  "description": "Professional hair cutting, bespoke grooming package builder, real-time stylist scheduling, and shop owner management portal exclusively for Hyderabad, Telangana.",
+  "requestFramePermissions": ["geolocation"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

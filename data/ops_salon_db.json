@@ -1,0 +1,631 @@
+{
+  "employees": [
+    {
+      "id": "emp-aarav",
+      "name": "Aarav Reddy",
+      "role": "Creative Director & Master Barber",
+      "specialty": "Architectural Haircuts & Royal Beard Sculpting",
+      "experienceYears": 11,
+      "phone": "",
+      "primaryZone": "Jubilee Hills & Banjara Hills",
+      "rating": 4.95,
+      "completedAppointments": 1420,
+      "active": true,
+      "shiftHours": "09:00 AM - 07:00 PM",
+      "shiftStart": "09:00 AM",
+      "shiftEnd": "07:00 PM",
+      "breakStart": "01:00 PM",
+      "breakEnd": "02:00 PM",
+      "workingDays": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday",
+        "Sunday"
+      ],
+      "holidays": [],
+      "avatarInitials": "AR",
+      "portraitUrl": "/assets/aistudio/emp-portrait-aarav-reddy.jpeg",
+      "bio": "Trained in Mumbai and London with 11 years crafting tailored silhouettes for Hyderabad executives and grooms.",
+      "offeredServiceIds": [
+        "srv-haircut",
+        "srv-beard",
+        "srv-head-massage",
+        "srv-groom-royal",
+        "srv-express-trim"
+      ],
+      "availableSlots": [
+        "09:00 AM - 10:00 AM",
+        "10:00 AM - 11:00 AM",
+        "11:00 AM - 12:00 PM",
+        "12:00 PM - 01:00 PM",
+        "02:00 PM - 03:00 PM",
+        "03:00 PM - 04:00 PM",
+        "04:00 PM - 05:00 PM",
+        "05:00 PM - 06:00 PM",
+        "06:00 PM - 07:00 PM"
+      ]
+    },
+    {
+      "id": "emp-zoya",
+      "name": "Zoya Mirza",
+      "role": "Senior Hair Designer & Keratin Specialist",
+      "specialty": "Layered Cuts, Moroccan Keratin Spa & Bridal Texture",
+      "experienceYears": 8,
+      "phone": "",
+      "primaryZone": "HITEC City, Madhapur & Jubilee Hills",
+      "rating": 4.92,
+      "completedAppointments": 985,
+      "active": true,
+      "shiftHours": "10:00 AM - 08:00 PM",
+      "shiftStart": "10:00 AM",
+      "shiftEnd": "08:00 PM",
+      "breakStart": "02:00 PM",
+      "breakEnd": "03:00 PM",
+      "workingDays": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday",
+        "Sunday"
+      ],
+      "holidays": [],
+      "avatarInitials": "ZM",
+      "portraitUrl": "/assets/aistudio/emp-portrait-zoya-mirza.jpeg",
+      "bio": "Specialist in organic keratin smoothing, hard-water hair recovery, and multi-dimensional scissor layering.",
+      "offeredServiceIds": [
+        "srv-haircut",
+        "srv-keratin-spa",
+        "srv-facial",
+        "srv-head-massage",
+        "srv-express-trim"
+      ],
+      "availableSlots": [
+        "10:00 AM - 11:00 AM",
+        "11:00 AM - 12:00 PM",
+        "12:00 PM - 01:00 PM",
+        "01:00 PM - 02:00 PM",
+        "03:00 PM - 04:00 PM",
+        "04:00 PM - 05:00 PM",
+        "05:00 PM - 06:00 PM",
+        "06:00 PM - 07:00 PM",
+        "07:00 PM - 08:00 PM"
+      ]
+    },
+    {
+      "id": "emp-vikram",
+      "name": "Vikramaditya Rao",
+      "role": "Ayurvedic Champi & Myofascial Therapist",
+      "specialty": "Bhringraj Kansa Head Massage & Deep Tissue Neck Relief",
+      "experienceYears": 9,
+      "phone": "",
+      "primaryZone": "Gachibowli, Kokapet & Financial District",
+      "rating": 4.97,
+      "completedAppointments": 1160,
+      "active": true,
+      "shiftHours": "09:00 AM - 06:00 PM",
+      "shiftStart": "09:00 AM",
+      "shiftEnd": "06:00 PM",
+      "breakStart": "02:00 PM",
+      "breakEnd": "03:00 PM",
+      "workingDays": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday",
+        "Sunday"
+      ],
+      "holidays": [],
+      "avatarInitials": "VR",
+      "portraitUrl": "/assets/aistudio/emp-portrait-vikram-rao.jpeg",
+      "bio": "Certified in Kerala Panchakarma and marma-point cranial therapy, specializing in migraine and tech-neck recovery.",
+      "offeredServiceIds": [
+        "srv-head-massage",
+        "srv-neck-massage",
+        "srv-facial",
+        "srv-beard"
+      ],
+      "availableSlots": [
+        "09:00 AM - 10:00 AM",
+        "10:00 AM - 11:00 AM",
+        "11:00 AM - 12:00 PM",
+        "12:00 PM - 01:00 PM",
+        "01:00 PM - 02:00 PM",
+        "03:00 PM - 04:00 PM",
+        "04:00 PM - 05:00 PM",
+        "05:00 PM - 06:00 PM"
+      ]
+    },
+    {
+      "id": "emp-kabir",
+      "name": "Kabir Pasha",
+      "role": "Master Razor Artisan & Grooming Stylist",
+      "specialty": "Nizami Hot-Towel Shaves, Skin Fades & Grooms Packages",
+      "experienceYears": 7,
+      "phone": "",
+      "primaryZone": "Somajiguda, Begumpet & Secunderabad",
+      "rating": 4.89,
+      "completedAppointments": 840,
+      "active": true,
+      "shiftHours": "10:00 AM - 08:00 PM",
+      "shiftStart": "10:00 AM",
+      "shiftEnd": "08:00 PM",
+      "breakStart": "01:00 PM",
+      "breakEnd": "02:00 PM",
+      "workingDays": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday",
+        "Sunday"
+      ],
+      "holidays": [],
+      "avatarInitials": "KP",
+      "portraitUrl": "/assets/aistudio/emp-portrait-kabir-pasha.jpeg",
+      "bio": "Fourth-generation Hyderabad grooming artisan renowned for surgical razor fades and classic hot-towel rituals.",
+      "offeredServiceIds": [
+        "srv-haircut",
+        "srv-beard",
+        "srv-groom-royal",
+        "srv-head-massage",
+        "srv-express-trim"
+      ],
+      "availableSlots": [
+        "10:00 AM - 11:00 AM",
+        "11:00 AM - 12:00 PM",
+        "12:00 PM - 01:00 PM",
+        "02:00 PM - 03:00 PM",
+        "03:00 PM - 04:00 PM",
+        "04:00 PM - 05:00 PM",
+        "05:00 PM - 06:00 PM",
+        "06:00 PM - 07:00 PM",
+        "07:00 PM - 08:00 PM"
+      ]
+    },
+    {
+      "id": "emp-meenakshi",
+      "name": "Meenakshi Nair",
+      "role": "Aesthetician & Family Styling Specialist",
+      "specialty": "Kumkumadi Facials, Women’s Cuts & Family Home Visits",
+      "experienceYears": 6,
+      "phone": "",
+      "primaryZone": "Kondapur, Manikonda & Kukatpally",
+      "rating": 4.91,
+      "completedAppointments": 710,
+      "active": true,
+      "shiftHours": "09:00 AM - 07:00 PM",
+      "shiftStart": "09:00 AM",
+      "shiftEnd": "07:00 PM",
+      "breakStart": "03:00 PM",
+      "breakEnd": "04:00 PM",
+      "workingDays": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday",
+        "Sunday"
+      ],
+      "holidays": [],
+      "avatarInitials": "MN",
+      "portraitUrl": "/assets/aistudio/emp-portrait-meenakshi-nair.jpeg",
+      "bio": "Expert in botanical skin revival and calm, coordinated multi-member family grooming sessions across Hyderabad.",
+      "offeredServiceIds": [
+        "srv-haircut",
+        "srv-keratin-spa",
+        "srv-facial",
+        "srv-head-massage",
+        "srv-express-trim"
+      ],
+      "availableSlots": [
+        "09:00 AM - 10:00 AM",
+        "10:00 AM - 11:00 AM",
+        "11:00 AM - 12:00 PM",
+        "12:00 PM - 01:00 PM",
+        "01:00 PM - 02:00 PM",
+        "02:00 PM - 03:00 PM",
+        "04:00 PM - 05:00 PM",
+        "05:00 PM - 06:00 PM",
+        "06:00 PM - 07:00 PM"
+      ]
+    }
+  ],
+  "bookings": [
+    {
+      "id": "bk-1001",
+      "bookingRef": "NZM-8401",
+      "createdAt": "2026-10-21T08:15:00",
+      "appointmentDate": "2026-10-21",
+      "timeSlot": "12:00 PM - 01:00 PM",
+      "serviceMode": "Home / On-Location Service",
+      "customerName": "Siddharth Varma",
+      "customerPhone": "+91 98480 41290",
+      "customerEmail": "siddharth.varma@hyderabadtech.in",
+      "hyderabadArea": "Jubilee Hills",
+      "fullAddress": "Villa 14, Jubilee Hills, Hyderabad",
+      "coordinates": {
+        "lat": 17.4328,
+        "lng": 78.4065
+      },
+      "memberCount": 2,
+      "members": [
+        {
+          "id": "m-1",
+          "label": "Siddharth Varma (Self)",
+          "age": 34,
+          "gender": "Male",
+          "serviceIds": [
+            "srv-haircut",
+            "srv-beard"
+          ],
+          "assignedEmployeeId": "emp-aarav"
+        },
+        {
+          "id": "m-2",
+          "label": "Rohan Varma (Father)",
+          "age": 62,
+          "gender": "Male",
+          "serviceIds": [
+            "srv-head-massage"
+          ],
+          "assignedEmployeeId": "emp-vikram"
+        }
+      ],
+      "selectedServiceIds": [
+        "srv-haircut",
+        "srv-beard",
+        "srv-head-massage"
+      ],
+      "isCustomPackage": true,
+      "packageName": "Custom 3-Service Grooming & Champi Bundle",
+      "subtotalAmount": 2150,
+      "packageDiscount": 215,
+      "homeVisitFee": 150,
+      "totalAmount": 2085,
+      "totalDurationMinutes": 115,
+      "primaryEmployeeId": "emp-aarav",
+      "assignedEmployeeIds": [
+        "emp-aarav",
+        "emp-vikram"
+      ],
+      "status": "Confirmed",
+      "notes": "Please bring unscented almond oil for father.",
+      "messages": [
+        {
+          "id": "msg-1",
+          "sentAt": "08:30 AM",
+          "sender": "Shop Owner",
+          "channel": "Portal Message",
+          "content": "Namaste Siddharth garu, your 12:00 PM - 01:00 PM OPS Salon home session with Aarav Reddy & Vikramaditya Rao in Jubilee Hills is confirmed."
+        }
+      ]
+    },
+    {
+      "id": "bk-1002",
+      "bookingRef": "NZM-8402",
+      "createdAt": "2026-10-21T09:05:00",
+      "appointmentDate": "2026-10-21",
+      "timeSlot": "10:00 AM - 11:00 AM",
+      "serviceMode": "Flagship Studio (Jubilee Hills)",
+      "customerName": "Ananya Deshmukh",
+      "customerPhone": "+91 90001 77321",
+      "customerEmail": "ananya.d@designstudio.co.in",
+      "hyderabadArea": "Banjara Hills",
+      "fullAddress": "Banjara Hills, Hyderabad",
+      "coordinates": {
+        "lat": 17.4162,
+        "lng": 78.4351
+      },
+      "memberCount": 1,
+      "members": [
+        {
+          "id": "m-3",
+          "label": "Ananya Deshmukh",
+          "age": 29,
+          "gender": "Female",
+          "serviceIds": [
+            "srv-haircut",
+            "srv-keratin-spa"
+          ],
+          "assignedEmployeeId": "emp-zoya"
+        }
+      ],
+      "selectedServiceIds": [
+        "srv-haircut",
+        "srv-keratin-spa"
+      ],
+      "isCustomPackage": true,
+      "packageName": "Silk Cut & Keratin Revival Duo",
+      "subtotalAmount": 2700,
+      "packageDiscount": 0,
+      "homeVisitFee": 0,
+      "totalAmount": 2700,
+      "totalDurationMinutes": 105,
+      "primaryEmployeeId": "emp-zoya",
+      "assignedEmployeeIds": [
+        "emp-zoya"
+      ],
+      "status": "Completed",
+      "notes": "Prefers low-heat diffuser drying.",
+      "messages": []
+    },
+    {
+      "id": "bk-1003",
+      "bookingRef": "NZM-8403",
+      "createdAt": "2026-10-21T09:40:00",
+      "appointmentDate": "2026-10-21",
+      "timeSlot": "02:00 PM - 03:00 PM",
+      "serviceMode": "Home / On-Location Service",
+      "customerName": "Farhan Qureshi",
+      "customerPhone": "+91 97014 88210",
+      "customerEmail": "farhan.q@cyberabadventures.com",
+      "hyderabadArea": "HITEC City",
+      "fullAddress": "Tower 4, HITEC City, Hyderabad",
+      "coordinates": {
+        "lat": 17.4398,
+        "lng": 78.3741
+      },
+      "memberCount": 3,
+      "members": [
+        {
+          "id": "m-4",
+          "label": "Farhan Qureshi",
+          "age": 31,
+          "gender": "Male",
+          "serviceIds": [
+            "srv-groom-royal"
+          ],
+          "assignedEmployeeId": "emp-kabir"
+        },
+        {
+          "id": "m-5",
+          "label": "Zaid Qureshi (Brother)",
+          "age": 26,
+          "gender": "Male",
+          "serviceIds": [
+            "srv-haircut",
+            "srv-beard"
+          ],
+          "assignedEmployeeId": "emp-aarav"
+        },
+        {
+          "id": "m-6",
+          "label": "Ayaan Qureshi (Nephew)",
+          "age": 9,
+          "gender": "Male",
+          "serviceIds": [
+            "srv-express-trim"
+          ],
+          "assignedEmployeeId": "emp-meenakshi"
+        }
+      ],
+      "selectedServiceIds": [
+        "srv-groom-royal",
+        "srv-haircut",
+        "srv-beard",
+        "srv-express-trim"
+      ],
+      "isCustomPackage": true,
+      "packageName": "Family Wedding Prep Package (3 Members)",
+      "subtotalAmount": 5299,
+      "packageDiscount": 530,
+      "homeVisitFee": 150,
+      "totalAmount": 4919,
+      "totalDurationMinutes": 220,
+      "primaryEmployeeId": "emp-kabir",
+      "assignedEmployeeIds": [
+        "emp-kabir",
+        "emp-aarav",
+        "emp-meenakshi"
+      ],
+      "status": "Confirmed",
+      "notes": "Pre-wedding family grooming session.",
+      "messages": [
+        {
+          "id": "msg-2",
+          "sentAt": "10:00 AM",
+          "sender": "Customer",
+          "channel": "Portal Message",
+          "content": "Please ensure Kabir brings the Kashmiri saffron facial kit for the groom package."
+        }
+      ]
+    },
+    {
+      "id": "bk-1004",
+      "bookingRef": "NZM-8404",
+      "createdAt": "2026-10-21T10:20:00",
+      "appointmentDate": "2026-10-21",
+      "timeSlot": "04:00 PM - 05:00 PM",
+      "serviceMode": "Flagship Studio (Jubilee Hills)",
+      "customerName": "Pranav Chaganti",
+      "customerPhone": "+91 91210 65432",
+      "customerEmail": "pranav.c@fintechhyd.in",
+      "hyderabadArea": "Gachibowli",
+      "fullAddress": "Financial District, Gachibowli, Hyderabad",
+      "coordinates": {
+        "lat": 17.4381,
+        "lng": 78.3462
+      },
+      "memberCount": 1,
+      "members": [
+        {
+          "id": "m-7",
+          "label": "Pranav Chaganti",
+          "age": 38,
+          "gender": "Male",
+          "serviceIds": [
+            "srv-neck-massage",
+            "srv-head-massage"
+          ],
+          "assignedEmployeeId": "emp-vikram"
+        }
+      ],
+      "selectedServiceIds": [
+        "srv-neck-massage",
+        "srv-head-massage"
+      ],
+      "isCustomPackage": false,
+      "subtotalAmount": 1850,
+      "packageDiscount": 0,
+      "homeVisitFee": 0,
+      "totalAmount": 1850,
+      "totalDurationMinutes": 85,
+      "primaryEmployeeId": "emp-vikram",
+      "assignedEmployeeIds": [
+        "emp-vikram"
+      ],
+      "status": "In Progress",
+      "notes": "Severe shoulder stiffness from long flights; focus on right trapezius.",
+      "messages": []
+    },
+    {
+      "id": "bk-1005",
+      "bookingRef": "NZM-8405",
+      "createdAt": "2026-10-21T11:05:00",
+      "appointmentDate": "2026-10-22",
+      "timeSlot": "11:00 AM - 12:00 PM",
+      "serviceMode": "Home / On-Location Service",
+      "customerName": "Dr. Kavitha Rao",
+      "customerPhone": "+91 98660 19283",
+      "customerEmail": "dr.kavitha@apollojubilee.org",
+      "hyderabadArea": "Somajiguda",
+      "fullAddress": "Raj Bhavan Road, Somajiguda, Hyderabad",
+      "coordinates": {
+        "lat": 17.4271,
+        "lng": 78.4594
+      },
+      "memberCount": 2,
+      "members": [
+        {
+          "id": "m-8",
+          "label": "Dr. Kavitha Rao",
+          "age": 44,
+          "gender": "Female",
+          "serviceIds": [
+            "srv-facial",
+            "srv-head-massage"
+          ],
+          "assignedEmployeeId": "emp-meenakshi"
+        },
+        {
+          "id": "m-9",
+          "label": "Meera Rao (Daughter)",
+          "age": 17,
+          "gender": "Female",
+          "serviceIds": [
+            "srv-haircut"
+          ],
+          "assignedEmployeeId": "emp-zoya"
+        }
+      ],
+      "selectedServiceIds": [
+        "srv-facial",
+        "srv-head-massage",
+        "srv-haircut"
+      ],
+      "isCustomPackage": true,
+      "packageName": "Mother & Daughter Weekend Sanctuary Package",
+      "subtotalAmount": 3050,
+      "packageDiscount": 305,
+      "homeVisitFee": 150,
+      "totalAmount": 2895,
+      "totalDurationMinutes": 135,
+      "primaryEmployeeId": "emp-meenakshi",
+      "assignedEmployeeIds": [
+        "emp-meenakshi",
+        "emp-zoya"
+      ],
+      "status": "Confirmed",
+      "notes": "Home visit at Raj Bhavan Road enclave.",
+      "messages": []
+    }
+  ],
+  "businessProfile": {
+    "salonName": "OPS Salon",
+    "contactPersonName": "",
+    "businessDescription": "Thoughtful grooming, architectural haircuts, bespoke service packages, and personal care in Hyderabad, Telangana.",
+    "primaryPhone": "",
+    "whatsappNumber": "",
+    "businessEmail": "",
+    "streetAddress": "",
+    "locality": "",
+    "city": "Hyderabad",
+    "state": "Telangana",
+    "pinCode": "",
+    "googleMapsUrl": "",
+    "instagramUrl": "",
+    "facebookUrl": "",
+    "businessHours": [
+      {
+        "day": "Monday",
+        "isClosed": false,
+        "openTime": "",
+        "closeTime": "",
+        "breakStart": "",
+        "breakEnd": ""
+      },
+      {
+        "day": "Tuesday",
+        "isClosed": false,
+        "openTime": "",
+        "closeTime": "",
+        "breakStart": "",
+        "breakEnd": ""
+      },
+      {
+        "day": "Wednesday",
+        "isClosed": false,
+        "openTime": "",
+        "closeTime": "",
+        "breakStart": "",
+        "breakEnd": ""
+      },
+      {
+        "day": "Thursday",
+        "isClosed": false,
+        "openTime": "",
+        "closeTime": "",
+        "breakStart": "",
+        "breakEnd": ""
+      },
+      {
+        "day": "Friday",
+        "isClosed": false,
+        "openTime": "",
+        "closeTime": "",
+        "breakStart": "",
+        "breakEnd": ""
+      },
+      {
+        "day": "Saturday",
+        "isClosed": false,
+        "openTime": "",
+        "closeTime": "",
+        "breakStart": "",
+        "breakEnd": ""
+      },
+      {
+        "day": "Sunday",
+        "isClosed": false,
+        "openTime": "",
+        "closeTime": "",
+        "breakStart": "",
+        "breakEnd": ""
+      }
+    ],
+    "cancellationPolicy": "",
+    "reschedulingPolicy": "",
+    "bookingInstructions": "",
+    "announcementText": "",
+    "announcementActive": false
+  }
+}
